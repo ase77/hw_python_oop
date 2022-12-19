@@ -1,7 +1,9 @@
 import inspect
+
 import types
 
 import pytest
+
 from conftest import Capturing
 
 try:

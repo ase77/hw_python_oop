@@ -1,6 +1,6 @@
 import sys
-from pathlib import Path
 from io import StringIO
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 sys.path.append(str(BASE_DIR))
@@ -26,7 +26,6 @@ class Capturing(list):
         del self._stringio  # free up some memory
         sys.stdout = self._stdout
 
-        
+
 def pytest_make_parametrize_id(config, val):
     return repr(val)
-        

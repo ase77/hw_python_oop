@@ -1,9 +1,7 @@
 import inspect
-
 import types
 
 import pytest
-
 from conftest import Capturing
 
 try:
@@ -18,7 +16,7 @@ except ImportError:
 
 def test_read_package():
     assert hasattr(homework, "read_package"), (
-                 "Создайте функцию для обработки " "входящего пакета - `read_package`"
+        "Создайте функцию для обработки " "входящего пакета - `read_package`"
     )
     assert callable(
         homework.read_package

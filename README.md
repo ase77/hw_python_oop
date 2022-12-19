@@ -1,9 +1,48 @@
 # Фитнес-браслет
 
-## Задача
-Реализовать программный модуль по методологии ООП для расчёта и отображения информации
+## Описание
+Программный модуль по методологии ООП для расчёта и отображения информации
 о прошедшей тренировке по данным от блока датчиков.
 
+## Технологии
+Python3, pre-commit, flake8, black, isort
+
+## Как запустить проект:
+
+Клонировать репозиторий и перейти в него в командной строке:
+
+```
+git clone
+```
+
+```
+cd hw_python_oop
+```
+
+Cоздать и активировать виртуальное окружение:
+
+* Если у вас Linux/MacOS
+
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+* Если у вас Windows
+
+    ```
+    python -m venv venv
+    source venv/Scripts/activate
+    ```
+
+Установить зависимости из файла requirements.txt:
+
+```
+python3 -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+## Описание проекта
 ## Базовый класс
 ```python
 class Training

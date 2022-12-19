@@ -15,7 +15,7 @@ class InfoMessage:
         """Получить строку сообщения о тренировке."""
         output = (
             f"Тип тренировки: {self.training_type}; "
-            f"Длительность: {self.duration:.3f} ч.; "
+                                             f"Длительность: {self.duration:.3f} ч.; "
             f"Дистанция: {self.distance:.3f} км; "
             f"Ср. скорость: {self.speed:.3f} км/ч; "
             f"Потрачено ккал: {self.calories:.3f}."

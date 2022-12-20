@@ -5,7 +5,7 @@
 о прошедшей тренировке по данным от блока датчиков.
 
 ## Технологии
-Python3, pre-commit, flake8, black, isort
+Python3, pre-commit, poetry, flake8, black, isort
 
 ## Как запустить проект:
 

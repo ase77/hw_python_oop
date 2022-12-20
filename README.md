@@ -11,11 +11,11 @@ Python3, pre-commit, poetry, flake8, black, isort
 
 Клонировать репозиторий и перейти в него в командной строке:
 
-```
+```python
 git clone git@github.com:ase77/hw_python_oop.git
 ```
 
-```
+```python
 cd hw_python_oop
 ```
 
@@ -23,34 +23,34 @@ Cоздать и активировать виртуальное окружен�
 
 * Если у вас Linux/MacOS
 
-    ```
+    ```python
     python3 -m venv venv
     source venv/bin/activate
     ```
 
 * Если у вас Windows
 
-    ```
+    ```python
     python -m venv venv
     source venv/Scripts/activate
     ```
 
 Обновить систему управления пакетами `pip`:
 
-```
+```python
 python -m pip install --upgrade pip
 ```
 
 Установить poetry и зависимости из файла `pyproject.toml`:
 
-```
+```python
 pip install poetry
 poetry install
 ```
 
 Включить `pre-commit` и активировать хуки:
 
-```
+```python
 pre-commit install
 ```
 

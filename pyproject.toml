@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hw-python-oop"
+version = "0.1.0"
+description = "Фитнес трекер"
+authors = ["Моторин Антон <ust.mir@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hw_python_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pre-commit = "^2.20.0"
+flake8 = "^6.0.0"
+isort = "^5.11.3"
+black = "^22.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pre-commit install
